@@ -11,7 +11,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "jest --testMatch='**/?(*.)+(spec).ts'",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "lint": "eslint . --ext .ts"
   },
   "devDependencies": {
@@ -24,5 +25,11 @@
     "prettier": "^3.2.5",
     "ts-jest": "^29.1.2",
     "typescript": "^5.0.3"
+  },
+  "resolutions": {
+    "eslint-plugin-prettier": "^5.2.1"
+  },
+  "overrides": {
+    "eslint-plugin-prettier": "^5.2.1"
   }
 }
