@@ -27,7 +27,11 @@ lerna-debug.log*
 *.sublime-workspace
 
 # IDE - VSCode
+# Ignore local VSCode state, but keep the settings shared with the team.
+# (Do not ignore `.vscode` itself: git will not descend into an ignored
+# directory, so the negations below would never apply.)
 .vscode/*
-.vscode
+!.vscode/settings.json
+!.vscode/extensions.json
 !.vscode/tasks.json
 !.vscode/launch.json
