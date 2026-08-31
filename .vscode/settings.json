@@ -1,8 +1,8 @@
 {
-    "typescript.tsdk": "node_modules/typescript/lib",
-    "editor.tabSize": 2,
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": "explicit"
-    },
-    "eslint.validate": ["javascript"]
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": ["javascript", "typescript"]
 }
